@@ -148,3 +148,13 @@ p {
   padding: 0;
   cursor: pointer;
 }
+
+.wip{
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  text-align: center;      /* Ensures text inside is centered */
+  font-family: "IBM Plex Serif", serif;
+}
