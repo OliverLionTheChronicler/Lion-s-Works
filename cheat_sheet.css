@@ -1,0 +1,44 @@
+/* comments are like this
+
+body {
+  background-image: url("paper-background-1.jpeg");
+  background-position: center;
+  background-size: 150%;
+  font-family: Trattatello;
+
+  connecting to a class in HTML
+.image {
+  border: 10px solid goldenrod;
+  position: left absolute;
+}
+
+Connecting to a paragraph or header:
+h1 {
+properties here
+}
+
+PSEUDO-CLASSES:for interactions with link or element
+  article p: pseudo class here {
+properties here
+}
+- class=""- needs to be added to specfic <p> or <h> and so on.
+  article p: first of type {
+ properties here
+}
+
+PSEYDO=ELEMENTS: 
+  article p::first-letter {  
+  properties here
+}
+- first letter of every article-
+
+
+
+
+
+
+
+
+
+
+/

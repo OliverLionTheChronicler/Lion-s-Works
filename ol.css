@@ -1,0 +1,150 @@
+body{
+  background-color: rgb(0,8,46);
+}
+
+p{
+  color:white;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+   color: white;
+  }
+h3{
+  color:whitesmoke;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a{
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.story-button{
+  background:green;
+  height: 20px;
+  width: 65px;
+  padding: 15px 32px;
+  border:none;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+.story-button:hover {
+  background-color:red;
+  color:yellow;
+}
+
+.header{
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+.side{
+    float: left;
+    margin-top: 0%;
+    container: 0px;
+    border: none;
+    position: sticky;
+}
+.left{
+    float: left;
+    margin-top: 0%;
+    margin-right: -50%;
+    margin-left: -1.1%;
+    container: 0px;
+    border: none;
+    position: sticky;
+}
+.paragraph{
+    float: none;
+    container: 0px;
+    margin-top: -1.5%;
+    margin-left: 350px;
+    border: none;
+    position: sticky;
+    width: 1000px;
+    border-radius: 0;
+    border: none;
+    padding: 5px;
+}
+
+.stories-home{
+    float: none;
+    container: 0px;
+    margin-left: 0px;
+    border: none;
+    position: sticky;
+    width: 1000px;
+    border-radius: 0;
+    border: none;
+    padding: 5px;
+}
+.stories-home {
+  display: flex;
+  gap: 20px; /* Space between paragraphs */
+}
+/*MENU/NAVBAR*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  width: 300px;
+}
+li a {
+  display: block;
+  color: whitesmoke;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: red;
+  color: yellow;
+}
+.active {
+  background-color: green;
+  color: rgb(234, 255, 0);
+}
+
+a{
+  text-decoration: none;
+  font-family: "IBM Plex Serif", serif;
+  color: white;
+}
+/* Add space ABOVE "Newest Work" */
+h3 {
+  margin-top: 30px;   /* adjust as needed */
+  margin-bottom: 10px;
+}
+
+/* Specifically tighten the gap between "Newest Work" and "Portal" */
+.stories-home h3 {
+  margin-top: 5px;
+}
+
+/* Optional: reduce space from paragraph above */
+p {
+  margin-bottom: 10px;
+}
+/*ICONS*/
+/*FONTS*/
+.header{
+  font-family: "My Soul", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/*BUTTONS*/
+.cover-button{
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
