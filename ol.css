@@ -11,7 +11,8 @@ p{
 
 h1{
    color: white;
-  }
+}
+
 h3{
   color:whitesmoke;
   font-family: "IBM Plex Serif", serif;
@@ -92,6 +93,11 @@ a{
   gap: 20px; /* Space between paragraphs */
 }
 /*MENU/NAVBAR*/
+
+.sidebar {
+  width: 300px;
+  background-color: green;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -119,6 +125,18 @@ a{
   font-family: "IBM Plex Serif", serif;
   color: white;
 }
+
+.active {
+  background-color: green;
+  color: rgb(234, 255, 0);
+}
+
+/* main content area */
+.content {
+  flex: 1;
+  margin-left: 10px;
+}
+
 /* Add space ABOVE "Newest Work" */
 h3 {
   margin-top: 30px;   /* adjust as needed */
@@ -148,12 +166,27 @@ p {
   padding: 0;
   cursor: pointer;
 }
-
 .wip{
   height: 100vh; /* Full viewport height */
   width: 100%;
   display: flex;
   justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  text-align: center;      /* Ensures text inside is centered */
+  font-family: "IBM Plex Serif", serif;
+}
+
+.pdf{
+  display: flex;
+  margin-left: 10px;
+}
+
+/*PDFs*/
+.layout {
+  display: flex;
+  align-items: flex-start;
+}
+/*TEMP/TEST*/
   align-items: center;     /* Vertical centering */
   text-align: center;      /* Ensures text inside is centered */
   font-family: "IBM Plex Serif", serif;
